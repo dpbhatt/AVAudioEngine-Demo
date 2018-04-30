@@ -66,9 +66,9 @@ class ViewController: UIViewController {
     
     @IBAction func rateSlider(_ sender: UISlider) {
         audioPlayers[currentPlayer].pause()
-        
-        let roundedValue = round(sender.value / step) * step
-        sender.value = roundedValue
+//
+//        let roundedValue = round(sender.value / step) * step
+//        sender.value = roundedValue
         setLabels()
         avAudioPlayerTimePitch.pitch = pitchSlider.value
         avAudioPlayerTimePitch.rate = rateSlider.value
