@@ -116,7 +116,7 @@ class ViewController: UIViewController {
             player = AVAudioPlayerNode()
             
             // Can't believe on documentation
-            player.volume = 10.0
+            player.volume = 100.0
             
             /*
              let reverb = AVAudioUnitReverb()
